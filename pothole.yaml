@@ -1,0 +1,12 @@
+# pothole.yaml - Data Configuration File
+
+# Paths are relative to the project root: C:\Users\mohid\Desktop\pothole
+train: pothole_yolo/images/train/
+val: pothole_yolo/images/val/
+test: pothole_yolo/images/test/
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['pothole']
